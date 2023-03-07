@@ -1,7 +1,6 @@
-package java.mate.academy.spring.dao;
+package cinema.dao;
 
-import mate.academy.spring.model.User;
-
+import cinema.model.User;
 import java.util.Optional;
 
 public interface UserDao {

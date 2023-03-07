@@ -1,16 +1,20 @@
-package java.mate.academy.spring.controller;
+package cinema.controller;
 
-import mate.academy.spring.dto.response.ShoppingCartResponseDto;
-import mate.academy.spring.model.MovieSession;
-import mate.academy.spring.model.ShoppingCart;
-import mate.academy.spring.model.User;
-import mate.academy.spring.service.MovieSessionService;
-import mate.academy.spring.service.ShoppingCartService;
-import mate.academy.spring.service.UserService;
-import mate.academy.spring.service.mapper.ResponseDtoMapper;
+import cinema.dto.response.ShoppingCartResponseDto;
+import cinema.model.MovieSession;
+import cinema.model.ShoppingCart;
+import cinema.model.User;
+import cinema.service.MovieSessionService;
+import cinema.service.ShoppingCartService;
+import cinema.service.UserService;
+import cinema.service.mapper.ResponseDtoMapper;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/shopping-carts")

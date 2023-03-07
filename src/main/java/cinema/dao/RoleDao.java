@@ -1,7 +1,6 @@
-package java.mate.academy.spring.dao;
+package cinema.dao;
 
-import mate.academy.spring.model.Role;
-
+import cinema.model.Role;
 import java.util.Optional;
 
 public interface RoleDao {

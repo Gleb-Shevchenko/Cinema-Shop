@@ -1,15 +1,18 @@
-package java.mate.academy.spring.controller;
+package cinema.controller;
 
-import mate.academy.spring.dto.request.MovieRequestDto;
-import mate.academy.spring.dto.response.MovieResponseDto;
-import mate.academy.spring.model.Movie;
-import mate.academy.spring.service.MovieService;
-import mate.academy.spring.service.mapper.RequestDtoMapper;
-import mate.academy.spring.service.mapper.ResponseDtoMapper;
-import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
+import cinema.dto.request.MovieRequestDto;
+import cinema.dto.response.MovieResponseDto;
+import cinema.model.Movie;
+import cinema.service.MovieService;
+import cinema.service.mapper.RequestDtoMapper;
+import cinema.service.mapper.ResponseDtoMapper;
 import java.util.List;
+import javax.validation.Valid;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/movies")

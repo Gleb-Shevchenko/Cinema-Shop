@@ -1,4 +1,4 @@
-package java.mate.academy.spring.lib;
+package cinema.lib;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

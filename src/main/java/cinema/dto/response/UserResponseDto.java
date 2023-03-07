@@ -1,4 +1,4 @@
-package java.mate.academy.spring.dto.response;
+package cinema.dto.response;
 
 public class UserResponseDto {
     private Long id;

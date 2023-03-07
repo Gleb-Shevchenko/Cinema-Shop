@@ -1,6 +1,6 @@
-package java.mate.academy.spring.service;
+package cinema.service;
 
-import mate.academy.spring.model.User;
+import cinema.model.User;
 
 public interface AuthenticationService {
     User register(String email, String password);

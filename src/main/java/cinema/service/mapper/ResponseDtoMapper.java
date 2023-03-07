@@ -1,4 +1,4 @@
-package java.mate.academy.spring.service.mapper;
+package cinema.service.mapper;
 
 public interface ResponseDtoMapper<D, T> {
     D mapToDto(T t);
